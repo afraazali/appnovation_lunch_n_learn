@@ -1,0 +1,6 @@
+name = "Lunch N Learn"
+description = "An example module for lunch n learn purposes"
+version = 6.x-1.0
+package = ZRAND
+project = ZRAND
+core = 6.x
