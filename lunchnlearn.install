@@ -1,9 +1,13 @@
 <?php
 /**
+ * @file
+ *  Module install file
+ */
+/**
  * Implementation of hook_schema
  */
 function lunchnlearn_schema() {
-	$schema = array();
+  $schema = array();
   $schema['lunchnlearn'] = array(
     'description' => t('LunchNLearn Table'),
     'fields' => array(
@@ -21,14 +25,12 @@ function lunchnlearn_schema() {
  * Implementation of hook_install
  */
 function lunchnlearn_install() {
-	drupal_install_schema('lunchnlearn');
+  drupal_install_schema('lunchnlearn');
 }
 
 /**
  * Implementation of hook_uninstall
  */
 function lunchnlearn_uninstall() {
-	//@TODO Implement
-	drupal_uninstall_schema('lunchnlearn');
+  drupal_uninstall_schema('lunchnlearn');
 }
-
